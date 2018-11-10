@@ -1,7 +1,7 @@
 {
   "name": "SC quick link",
   "description": "Type 'sc' plus an incident number into the Chrome omnibox.",
-  "version": "1.0",
+  "version": "1.1",
   "background": {
     "scripts": ["background.js"],
     "persistent": false
