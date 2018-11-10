@@ -1,0 +1,23 @@
+{
+  "name": "SC quick link",
+  "description": "Type 'sc' plus an incident number into the Chrome omnibox.",
+  "version": "1.0",
+  "background": {
+    "scripts": ["background.js"],
+    "persistent": false
+  },
+  "omnibox": { "keyword" : "sc" },
+  "manifest_version": 2,
+  "browser_action": {
+    "default_icon": {
+      "16": "jhc16.png",
+      "32": "jhc32.png"
+      }
+  },
+  "icons": {
+    "16": "jhc16.png",
+    "32": "jhc32.png",
+    "48": "jhc48.png",
+    "128": "jhc128.png"
+  }
+}
