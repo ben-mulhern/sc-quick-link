@@ -1,6 +1,6 @@
 {
   "name": "SC quick link",
-  "description": "Type 'sc' plus an incident number into the Chrome omnibox.",
+  "description": "Quickly navigate to a Figaro Smartcore incident",
   "version": "1.2",
   "background": {
     "scripts": ["background.js"],
