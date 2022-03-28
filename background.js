@@ -10,7 +10,7 @@ chrome.omnibox.onInputEntered.addListener(function (input) {
   const incident =
     length >= 7 ? incNum : baseIncident.substring(0, 7 - length) + incNum
   const incUrl =
-    "https://servicedesk.fnzsupport.com/link/JHCLive/INC/" +
+    "https://servicedesk.fnzsupport.com/link/FNZLive/INC/" +
     encodeURIComponent(incident)
   chrome.tabs.create({ url: incUrl })
 })
